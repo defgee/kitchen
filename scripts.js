@@ -4,7 +4,7 @@ const video = document.querySelector('video[data-autoplay]');
 if (video) {
   let hasInteracted = false;
   video.pause();
-  video.playbackRate = 4;
+  video.playbackRate = 1.5;
 
   const isInView = (node) => {
     const rect = node.getBoundingClientRect();
